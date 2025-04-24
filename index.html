@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment 5 Layout</title>  <!-- Internal CSS -->  <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f2f2f2;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .container {
+          max-width: 1000px;
+          margin: auto;
+          padding: 20px;
+        }
+    
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: white;
+          padding: 10px 20px;
+          border-radius: 12px;
+          margin-bottom: 20px;
+        }
+    
+        .nav .logo {
+          border: 1px solid #ccc;
+          padding: 10px;
+          border-radius: 10px;
+        }
+    
+        .nav .menu a {
+          margin: 0 10px;
+          text-decoration: none;
+          color: #333;
+          font-weight: bold;
+        }
+    
+        .feature {
+          display: flex;
+          gap: 20px;
+          background: white;
+          padding: 20px;
+          border-radius: 20px;
+          margin-bottom: 20px;
+        }
+    
+        .feature img {
+          width: 50%;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+        }
+    
+        .feature .text {
+          width: 50%;
+          border: 1px solid #ccc;
+          padding: 10px;
+          border-radius: 10px;
+          background: #f9f9f9;
+        }
+    
+        .feature .text h2 {
+          font-size: 16px;
+        }
+    
+        .gallery {
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+          background: white;
+          padding: 20px;
+          border-radius: 20px;
+          margin-bottom: 20px;
+        }
+    
+        .gallery img {
+          width: 32%;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+        }
+    
+        #footer {
+          display: flex;
+          justify-content: space-between;
+          background: white;
+          padding: 20px;
+          border-radius: 20px;
+        }
+    
+        #footer img {
+          width: 80px;
+          height: auto;
+        }
+    
+        .links {
+          font-size: 14px;
+        }
+      </style>  <!-- External CSS -->  <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="nav">
+            <div class="logo">
+              <img src="assets/images/[CITYPNG.COM]Mortal Kombat 1 Dragon Logo Sign - 2000x2000.png" alt="Website Logo" style="height: 50px;">
+            </div>
+            <div class="menu">
+              <a href="#">HOME</a>
+              <a href="#">ABOUT</a>
+              <a href="#">CONTACT</a>
+              <a href="#">INFO</a>
+            </div>
+        </div><div class="feature">
+      <img src="assets/images/mortal-kombat-1.jpg" alt="Feature Image">
+      <div class="text">
+        <h2><b>The standard Lorem Ipsum passage, used since the 1500s</b></h2>
+        <p style="color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>Read more</button>
+      </div>
+    </div>
+    
+    <div class="gallery">
+      <img src="assets/images/Scorpion_MK1_Render.webp" alt="Gallery Image 1">
+      <img src="assets/images/Liu_Kang_Render_29.webp" alt="Gallery Image 2">
+      <img src="assets/images/JohnnyCage_MK1_render.webp" alt="Gallery Image 3">
+    </div>
+    
+    <div id="footer">
+      <img src="assets/images/Mortal_Kombat_1_29.webp" alt="Footer Image">
+      <div class="links">
+        <p><b>Quick Links</b></p>
+        <p>Home<br>About<br>Contact<br>Info</p>
+      </div>
+      <div class="text">
+        <p><b>Project title</b></p>
+        <p><i>"Sed ut perspiciatis unde omnis iste natus error sit doloremque laudantium"</i></p>
+      </div>
+    </div>
+    
+      </div>
+    </body>
+    </html>
